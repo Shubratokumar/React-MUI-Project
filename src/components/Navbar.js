@@ -41,7 +41,7 @@ const Navbar = () => {
     return (
         <AppBar position="sticky">
             <StyledToolbar>
-                <Typography variant="h6" sx={{ display:{xs:"none", sm: "block"}}}>SHUBRATO DEV </Typography>
+                <Typography variant="h6" sx={{ display:{xs:"none", sm: "block"}}}>DEV</Typography>
                 <MenuOpenIcon sx={{ display:{xs:"block", sm: "none"}}}/>
                 <Search><InputBase placeholder="Search here"/></Search>
                 <Icons>
@@ -62,7 +62,7 @@ const Navbar = () => {
             </StyledToolbar>
             <Menu
                 id="positioned-menu"
-                aria-labelledby="git positioned-button"
+                aria-labelledby="positioned-button"
                 open={open}
                 onClick={e => setOpen(false)}
                 anchorOrigin={{
